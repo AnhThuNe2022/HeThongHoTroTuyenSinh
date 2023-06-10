@@ -1,0 +1,57 @@
+.my-list {
+    background-color:	#F0F8FF;
+    font-weight: bold;
+    padding: 10px;
+
+  }
+  
+  .my-item {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .info {
+    color: #212529;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  
+
+  .my-title {
+    color: #212529;
+    font-size: 20px;
+    margin-top: 15px;
+
+  }
+
+  .introduce {
+    color: #212529;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .my-description {
+    color: #6c757d;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 10px;
+  }
+  table {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  td,  thead th {
+    text-align: center;
+    vertical-align: middle;
+  }
+  .modal-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+  }

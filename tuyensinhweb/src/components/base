@@ -1,0 +1,27 @@
+import { useEffect, useState } from "react";
+import API, { endpoint } from "../configs/API";
+import { Accordion } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
+const AdmissionInfos = () => {
+  const [admissionInfo, setAdmissionInfo] = useState([]);
+
+  useEffect(() => {
+
+    
+    const loadAdmissionInfo = async () => {
+      let res = await API.get(endpoint["admissionInfo"]);
+      setAdmissionInfo(res.data);
+      console.log(res.data);
+    };
+    loadAdmissionInfo();
+  }, []);
+
+  return (
+    <>
+     
+    </>
+  );
+};
+
+export default AdmissionInfos;
